@@ -175,7 +175,7 @@ function TextSection({ heading, content }) {
 	);
 }
 
-registerElement(Foo, 'text-section', [], { shadow: true });
+registerElement(TextSection, 'text-section', [], { shadow: true });
 ```
 
 Usage:
